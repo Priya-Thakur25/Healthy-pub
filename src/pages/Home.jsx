@@ -12,7 +12,7 @@ export default function Home() {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current,{
-      strings:["The Supplement store", "Trusted by Athletes", "by Sagar Thakur"],
+      strings:[" The Supplement store", " Trusted by Athletes", " by Sagar Rajpoot"],
       typeSpeed:50,
       backSpeed:50,
       loop:true,
@@ -56,7 +56,7 @@ export default function Home() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 "> 
-          Healthy Pub, 
+          Healthy Pub 
           <span ref={typedRef} className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600'></span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300">
