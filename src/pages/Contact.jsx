@@ -87,7 +87,7 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-blue-500 mt-1" />
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-gray-300">+1 (555) 123-4567</p>
+                    <p className="text-gray-300">+91 8755372900</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -95,8 +95,8 @@ export default function Contact() {
                   <div>
                     <h3 className="font-medium">Address</h3>
                     <p className="text-gray-300">
-                      123 Fitness Street<br />
-                      New York, NY 10001
+                      502,Near Mata Mandir<br />
+                      Dholi Pyau Mathura
                     </p>
                   </div>
                 </div>
@@ -105,9 +105,8 @@ export default function Contact() {
                   <div>
                     <h3 className="font-medium">Business Hours</h3>
                     <p className="text-gray-300">
-                      Monday - Friday: 9:00 AM - 6:00 PM<br />
-                      Saturday: 10:00 AM - 4:00 PM<br />
-                      Sunday: Closed
+                      Monday - Saturday: 10:00 AM - 9:00 PM<br />
+                      Sunday: Excited Offers Available
                     </p>
                   </div>
                 </div>
@@ -124,11 +123,11 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-medium text-blue-500">What payment methods do you accept?</h3>
-                  <p className="text-gray-300 mt-2">We accept all major credit cards, PayPal, and Apple Pay.</p>
+                  <p className="text-gray-300 mt-2">We accept all major credit cards, PayPal, and Online Payment.</p>
                 </div>
                 <div>
-                  <h3 className="font-medium text-blue-500">Do you ship internationally?</h3>
-                  <p className="text-gray-300 mt-2">Yes, we ship to most countries worldwide.</p>
+                  <h3 className="font-medium text-blue-500">Do you ship globally?</h3>
+                  <p className="text-gray-300 mt-2">Yes, we ship across whole country.</p>
                 </div>
               </div>
             </div>
