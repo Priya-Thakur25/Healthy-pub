@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-
+import logo from '../assets/HealthyPubLogo.png'
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollOpacity, setScrollOpacity] = useState(0.95);
@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-24 sm:h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src="src\assets\HealthyPubLogo.png" alt="Logo" className="w-20 h-20" />
+              <img src={logo} alt="Logo" className="w-20 h-20" />
               {/* <span className="ml-2 text-xl font-bold">Healthy Pub</span> */}
             </Link>
           </div>
